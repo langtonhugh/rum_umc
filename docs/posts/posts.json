@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/session_2/",
+    "title": "Session 2: an example topic",
+    "description": "A description for the second session.",
+    "author": [
+      {
+        "name": "John Doe",
+        "url": {}
+      }
+    ],
+    "date": "2024-07-03",
+    "categories": [],
+    "contents": "\r\nWant to present or share something? Get in touch!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-04-24T16:04:03+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/session_1/",
+    "title": "Session 1: welcome",
+    "description": "First session to kick-off the group!",
+    "author": [
+      {
+        "name": "Sam Langton",
+        "url": "https://www.samlangton.info"
+      }
+    ],
+    "date": "2024-06-19",
+    "categories": [],
+    "contents": "\r\nIn this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, a conversation to find out people’s preferences for format and timings (e.g., frequency of meets, hybrid), followed by a live coding demonstration for tidytuesday.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-04-24T18:07:48+02:00",
+    "input_file": {}
+  }
+]
