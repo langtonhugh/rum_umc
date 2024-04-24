@@ -1,0 +1,28 @@
+---
+title: "Session 1: welcome"
+description: |
+  First session to kick-off the group!
+author:
+  - name: Sam Langton
+    url: https://www.samlangton.info
+    affiliation: Amsterdam UMC
+    affiliation_url: https://www.amsterdamumc.org/en.htm
+date: 06-19-2024
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+In this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, find out people's preferences for format and timings (e.g., frequency of meets, hybrid), followed by a live coding demonstration for `tidytuesday`.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+
