@@ -10,6 +10,6 @@ navbar:
     - text: "About"
       href: about.html
     - icon: fa fa-github
-    - href: https://github.com/langtonhugh/rum_umc
+      href: https://github.com/langtonhugh/rum_umc
 output: distill::distill_article
 theme: theme.css
