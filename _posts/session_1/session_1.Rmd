@@ -13,7 +13,7 @@ output:
     self_contained: false
 ---
 
-In this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, find out people's preferences for format and timings (e.g., frequency of meets, hybrid), followed by a live coding demonstration for `tidytuesday`.
+In this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, a conversation to find out people's preferences for format and timings (e.g., frequency of meets, hybrid), followed by a live coding demonstration for [tidytuesday](https://github.com/rfordatascience/tidytuesday).
 
 
 ```{r setup, include=FALSE}

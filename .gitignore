@@ -1,3 +1,6 @@
+# Other docs
+non_website_docs/*
+
 # History files
 .Rhistory
 .Rapp.history
