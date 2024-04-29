@@ -1,9 +1,9 @@
 ---
-title: "Session 2: an example topic"
+title: "Session 2: TBC"
 description: |
-  A description for the second session.
+  We don't have a topic for this session yet.
 author:
-  - name: John Doe
+  - name: TBC
     # url: www.samlangton.info
     affiliation: Amsterdam UMC
     # affiliation_url: https://www.amsterdamumc.org/en.htm
@@ -13,7 +13,7 @@ output:
     self_contained: false
 ---
 
-Want to present or share something? Get in touch!
+Want to present or share something? [Get in touch](mailto:s.h.langton@amsterdamumc.nl)!
 
 
 ```{r setup, include=FALSE}

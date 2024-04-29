@@ -1,7 +1,7 @@
 ---
-title: "Session 1: welcome"
+title: "Session 1: reproducible workflows"
 description: |
-  First session to kick-off the group!
+  First session to kick-off the group & a short talk on reproducibility
 author:
   - name: Sam Langton
     url: https://www.samlangton.info
@@ -13,7 +13,7 @@ output:
     self_contained: false
 ---
 
-In this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, a conversation to find out people's preferences for format and timings (e.g., frequency of meets, hybrid), followed by a live coding demonstration for [tidytuesday](https://github.com/rfordatascience/tidytuesday).
+In this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, a conversation to find out people's preferences for format and timings (e.g., frequency of meets, hybrid), followed by a brief talk about how to make your R workflow reproducible.
 
 
 ```{r setup, include=FALSE}

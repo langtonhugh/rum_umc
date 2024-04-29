@@ -4,7 +4,7 @@ title: "About RUM-UMC"
 
 This is the webpage for RUM-UMC, the R user meet-up for Amsterdam UMC. The goal of the group is to connect fellow R enthusiasts from across the university, share our knowledge, refine best practices, learn new stuff and have fun.
 
-Anyone is welcome to join the meet-ups, from beginners to seasoned pros. If you'd like to present something or raise a topic for discussion, please get in touch.
+Anyone is welcome to join the meet-ups, from beginners to seasoned pros. If you'd like to present something or raise a topic for discussion, please [get in touch](mailto:s.h.langton@amsterdamumc.nl).
 
 
 ```{r setup, include=FALSE}
