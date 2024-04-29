@@ -4,6 +4,7 @@ description: |
   RUM-UMC
 output_dir: "docs"
 navbar:
+  search: false
   right:
     - text: "Meet-ups"
       href: index.html
