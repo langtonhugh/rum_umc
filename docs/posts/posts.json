@@ -18,8 +18,8 @@
   },
   {
     "path": "posts/session_1/",
-    "title": "Session 1: reproducible workflows",
-    "description": "First session to kick-off the group & a short talk on reproducibility",
+    "title": "Session 1: tidytuesday",
+    "description": "First session to kick-off the group & a short demonstration of tidytuesday.",
     "author": [
       {
         "name": "Sam Langton",
@@ -28,9 +28,9 @@
     ],
     "date": "2024-06-19",
     "categories": [],
-    "contents": "\r\nIn this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, a conversation to find out people’s preferences for format and timings (e.g., frequency of meets, hybrid), followed by a brief talk about how to make your R workflow reproducible.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nIn this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, a conversation to find out people’s preferences for format and timings (e.g., frequency of meets, hybrid), followed by a brief demonstration of tidytuesday.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-04-29T10:37:56+02:00",
+    "last_modified": "2024-05-20T09:12:47+02:00",
     "input_file": {}
   }
 ]
