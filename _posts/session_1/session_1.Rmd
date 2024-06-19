@@ -15,6 +15,7 @@ output:
 
 In this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, a conversation to find out people's preferences for format and timings (e.g., frequency of meets, hybrid), followed by a brief demonstration of [tidytuesday](https://github.com/rfordatascience/tidytuesday).
 
+You can find the script used during the session [here](https://github.com/langtonhugh/rum_umc/blob/main/session_material/scripts/session_1.R).
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
