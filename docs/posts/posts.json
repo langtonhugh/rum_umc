@@ -1,19 +1,19 @@
 [
   {
     "path": "posts/session_2/",
-    "title": "Session 2: TBC",
-    "description": "We don't have a topic for this session yet.",
+    "title": "Session 2: data visualisation",
+    "description": "Introduction to data visualisation using ggplot2.",
     "author": [
       {
-        "name": "TBC",
-        "url": {}
+        "name": "Sam Langton",
+        "url": "www.samlangton.info"
       }
     ],
     "date": "2024-07-03",
     "categories": [],
-    "contents": "\r\nWant to present or share something? Get in touch!\r\n\r\n\r\n\r\n",
+    "contents": "\r\nIn this session, we will give an introduction to data visualisation using ggplot2 via a live coding demonstration.\r\nWant to attend or present? Get in touch!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-04-29T10:27:58+02:00",
+    "last_modified": "2024-06-24T09:09:53+02:00",
     "input_file": {}
   },
   {

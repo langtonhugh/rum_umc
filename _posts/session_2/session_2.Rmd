@@ -1,19 +1,21 @@
 ---
-title: "Session 2: TBC"
+title: "Session 2: data visualisation"
 description: |
-  We don't have a topic for this session yet.
+  Introduction to data visualisation using ggplot2.
 author:
-  - name: TBC
-    # url: www.samlangton.info
+  - name: Sam Langton
+    url: www.samlangton.info
     affiliation: Amsterdam UMC
-    # affiliation_url: https://www.amsterdamumc.org/en.htm
+    affiliation_url: https://www.amsterdamumc.org/en.htm
 date: 07-03-2024
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-Want to present or share something? [Get in touch](mailto:s.h.langton@amsterdamumc.nl)!
+In this session, we will give an introduction to data visualisation using [ggplot2](https://ggplot2.tidyverse.org/) via a live coding demonstration. 
+
+Want to attend or present? [Get in touch](mailto:s.h.langton@amsterdamumc.nl)!
 
 
 ```{r setup, include=FALSE}
