@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/session_3/",
+    "title": "Session 3: making maps",
+    "description": "Introduction to mapping using sf.",
+    "author": [
+      {
+        "name": "Sam Langton",
+        "url": "www.samlangton.info"
+      }
+    ],
+    "date": "2024-07-17",
+    "categories": [],
+    "contents": "\r\nIn this session, we will give an introduction to geographic data and mapping using sf.\r\nWant to attend or present? Get in touch!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-07-03T13:47:31+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_2/",
     "title": "Session 2: data visualisation",
     "description": "Introduction to data visualisation using ggplot2.",
