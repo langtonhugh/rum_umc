@@ -16,25 +16,17 @@ tt_raw_df
 # Extract the data.
 tt_df <- tt_raw_df$rolling_stone
 
-# Bar plot.
-bar_gg <- tt_df %>% 
-  group_by(type) %>% 
-  tally() %>% 
-  ggplot() +
-  geom_col(mapping = aes(x = reorder(type, n), y = n),
-           fill = "grey20") +
-  coord_flip() +
-  labs(title = "Album type (bar)", y = NULL, x = NULL)
+# Relationship between spotify popularity and billboard (basic).
+scat_gg <- ggplot(data = tt_df) +
+  geom_point(mapping = aes(x = weeks_on_billboard, y = spotify_popularity,
+                           colour = release_year) ) +
+  scale_colour_viridis_c() +
+  labs(title = "Popularity (scatter)",
+       x = "Weeks on billboard", y = "Spotify popularity",
+       colour = "Release year") +
+  # Rough fix for patchwork alignment.
+  theme(axis.title.y = element_text(vjust = -15))
 
-# Density.
-dens_gg <- ggplot(data = tt_df) +
-  geom_density(mapping = aes(x = ave_age_at_top_500,
-                             fill = artist_gender),
-               alpha = 0.5) +
-  labs(title = "Age distribution (density)",
-       fill = NULL, x = NULL, y = NULL) +
-  theme(legend.position = "bottom")
-  
 # Box.
 box_gg <- tt_df %>% 
   filter(!is.na(artist_gender)) %>% 
@@ -47,17 +39,27 @@ box_gg <- tt_df %>%
        x = NULL, y = NULL) +
   theme(legend.position = "none")
 
-# Relationship between spotify popularity and billboard (basic).
-scat_gg <- ggplot(data = tt_df) +
-  geom_point(mapping = aes(x = weeks_on_billboard, y = spotify_popularity,
-                           colour = release_year) ) +
-  scale_colour_viridis_c() +
-  labs(title = "Popularity (scatter)",
-       x = "Weeks on billboard", y = "Spotify popularity",
-       colour = "Release year") +
-  # Rough fix for patchwork alignment.
-  theme(axis.title.y = element_text(vjust = -15))
-    
+# Density.
+dens_gg <- ggplot(data = tt_df) +
+  geom_density(mapping = aes(x = ave_age_at_top_500,
+                             fill = artist_gender),
+               alpha = 0.5) +
+  labs(title = "Age distribution (density)",
+       fill = NULL, x = NULL, y = NULL) +
+  theme(legend.position = "bottom")
+
+
+# Bar plot.
+bar_gg <- tt_df %>% 
+  group_by(type) %>% 
+  tally() %>% 
+  ggplot() +
+  geom_col(mapping = aes(x = reorder(type, n), y = n),
+           fill = "grey20") +
+  coord_flip() +
+  labs(title = "Album type (bar)", y = NULL, x = NULL)
+  
+
 # Arrange them.
 full_plot <- dens_gg + box_gg + bar_gg + scat_gg +
   plot_annotation(tag_levels = "A")
