@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/session_4/",
+    "title": "Session 4: visualising your literature review",
+    "description": "Visualise results from your literature review.",
+    "author": [
+      {
+        "name": "Ayu Dewi",
+        "url": "https://researchinformation.amsterdamumc.org/en/persons/ayu-dewi"
+      }
+    ],
+    "date": "2024-07-31",
+    "categories": [],
+    "contents": "\r\nIn this session, Ayu Dewi will give a live demonstration of how to create visualisations that summarise the results of your literature review.\r\nWant to attend or present? Get in touch!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-07-10T09:10:02+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_3/",
     "title": "Session 3: making maps",
     "description": "Introduction to mapping using sf.",
