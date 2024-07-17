@@ -15,8 +15,9 @@ output:
 
 In this session, [Ayu Dewi](https://researchinformation.amsterdamumc.org/en/persons/ayu-dewi) will give a live demonstration of how to create visualisations that summarise the results of your literature review.
 
-Want to attend or present? [Get in touch](mailto:s.h.langton@amsterdamumc.nl)!
+## Material
 
+You can access all the material used in this workshop [here](https://github.com/ayudewi/egm). Even if you do not use GitHub, you can still download all this material by clicking on the green `Code` icon button, and then `Download ZIP`. Once you've unzipped that file, you are good to go.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
