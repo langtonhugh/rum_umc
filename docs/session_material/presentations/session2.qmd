@@ -1,12 +1,12 @@
 ---
 title: "R User Meet - Amsterdam UMC"
-author: "3 July, 2024"
+author: "17 July, 2024"
 format: revealjs
 ---
 
 ## What is it?
 
-We don't know yet! But probably:
+Early days, but probably:
 
 <br>
 
@@ -31,6 +31,6 @@ We don't know yet! But probably:
 
 ## Today
 
-- Data viz with `ggplot2`
-- Discussion
+- Making maps
+- Next session's topic
 

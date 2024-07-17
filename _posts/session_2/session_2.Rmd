@@ -15,10 +15,9 @@ output:
 
 In this session, we will give an introduction to data visualisation using [ggplot2](https://ggplot2.tidyverse.org/) via a live coding demonstration. 
 
+## Material
+
 You can view my prep script [here](https://github.com/langtonhugh/rum_umc/blob/main/session_material/scripts/session_2.R), and the script used in the demonstration itself is available [here](https://github.com/langtonhugh/rum_umc/blob/main/session_material/scripts/session_2_demo.R).
-
-Want to attend or present? [Get in touch](mailto:s.h.langton@amsterdamumc.nl)!
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

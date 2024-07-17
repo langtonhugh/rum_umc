@@ -15,7 +15,9 @@ output:
 
 In this session, we will give an introduction to geographic data and mapping using [sf](https://r-spatial.github.io/sf/).
 
-Want to attend or present? [Get in touch](mailto:s.h.langton@amsterdamumc.nl)!
+## Material
+
+You can view my full prep script [here](https://github.com/langtonhugh/rum_umc/blob/main/session_material/scripts/session_3.R). The script used during the session itself is [here](https://github.com/langtonhugh/rum_umc/blob/main/session_material/scripts/session_3_demo.R).
 
 
 ```{r setup, include=FALSE}
