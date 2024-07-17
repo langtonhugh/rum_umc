@@ -20,13 +20,14 @@ Early days, but probably:
 - Currently bi-weekly, 1 hour
 - All levels welcome
 - Website with [all material](https://langtonhugh.github.io/rum_umc/)
-- Default: tidytuesday
-- Ideally: different presentations each session
+- Default: [tidytuesday](https://github.com/rfordatascience/tidytuesday)
+- Ideally: guest speakers
 - Dutch or English
 
 ## Admin 
 
-- If you want to present, please email me!
+- If you want to present, email me!
+- If you want to be on the mailing list, email me!
 - Summer break?
 
 ## Today
