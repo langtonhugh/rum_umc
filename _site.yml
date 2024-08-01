@@ -1,7 +1,7 @@
 name: "rum_umc"
 title: "RUM-UMC"
 description: |
-  RUM-UMC
+  RUM-UMC 
 output_dir: "docs"
 navbar:
   search: false
