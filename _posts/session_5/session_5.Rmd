@@ -1,9 +1,9 @@
 ---
-title: "Session 5: TBC"
+title: "Summer break"
 description: |
-  We don't have a speaker for this session yet!
+  We will take a short break over summer. Fijne vakantie!
 author:
-  - name: TBC
+  - name: None
     # url: www.samlangton.info
     # affiliation: Amsterdam UMC
     # affiliation_url: https://www.amsterdamumc.org/en.htm
@@ -13,7 +13,7 @@ output:
     self_contained: false
 ---
 
-We don't have a topic for this session yet! Would you like to present something, or request a topic? [Get in touch](mailto:s.h.langton@amsterdamumc.nl)!
+We will take a short break over summer. In the meantime, if you want to join the mailing list or suggest a topic for a future session, please [get in touch](mailto:s.h.langton@amsterdamumc.nl)!
 
 
 ```{r setup, include=FALSE}
