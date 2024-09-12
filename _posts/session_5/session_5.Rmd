@@ -1,19 +1,23 @@
 ---
-title: "Summer break"
+title: "Session 5: Reproducibility"
 description: |
-  We will take a short break over summer. Fijne vakantie!
+  Tips on ensuring your results can be reproduced.
 author:
-  - name: None
-    # url: www.samlangton.info
-    # affiliation: Amsterdam UMC
-    # affiliation_url: https://www.amsterdamumc.org/en.htm
-date: 08-14-2024
+  - name: Sam Langton
+    url: www.samlangton.info
+    affiliation: Amsterdam UMC
+    affiliation_url: https://www.amsterdamumc.org/en.htm
+date: 09-25-2024
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-We will take a short break over summer. In the meantime, if you want to join the mailing list or suggest a topic for a future session, please [get in touch](mailto:s.h.langton@amsterdamumc.nl)!
+Have you ever been sent an R script by a colleague and the code fails to run as promised? Or have you ever re-run one of your own scripts after a few weeks, and you get a new error or different results to last time? This has happened to pretty much every R user, but it is avoidable! In this session, we cover some top-tips for ensuring that the R scripts you write today will run again in the same way tomorrow (both for yourself, and colleagues). 
+
+## Material
+
+The material for the session is available [here](https://github.com/langtonhugh/reprod_r).
 
 
 ```{r setup, include=FALSE}
