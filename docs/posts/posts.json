@@ -1,7 +1,7 @@
 [
   {
     "path": "posts/session_5/",
-    "title": "Session 5: Reproducibility",
+    "title": "Session 5: reproducibility",
     "description": "Tips on ensuring your results can be reproduced.",
     "author": [
       {
@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\r\nHave you ever been sent an R script by a colleague and the code fails to run as promised? Or have you ever re-run one of your own scripts after a few weeks, and you get a new error or different results to last time? This has happened to pretty much every R user, but it is avoidable! In this session, we cover some top-tips for ensuring that the R scripts you write today will run again in the same way tomorrow (both for yourself, and colleagues).\r\nMaterial\r\nThe material for the session is available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-09-12T14:35:08+02:00",
+    "last_modified": "2024-09-13T10:54:42+02:00",
     "input_file": {}
   },
   {
