@@ -1,0 +1,32 @@
+---
+title: "Session 7: Quarto"
+description: |
+  Learn how to create reproducible slides and reports within R.
+author:
+  - name: Aleksandra Wilczynska
+    url: https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact/aleksandra-wilczynska
+    affiliation: TU Delft
+    affiliation_url: https://www.tudelft.nl/
+date: 10-23-2024
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+This session will introduce [Quarto](https://quarto.org/) for publishing reproducible, high-quality documents, such as slides, articles and dashboards, from within R. You can take a look at some examples in the [Quarto Gallery](https://quarto.org/docs/gallery/).
+
+## Material
+
+The material for the session will be available soon!
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+

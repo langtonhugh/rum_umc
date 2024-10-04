@@ -1,5 +1,39 @@
 [
   {
+    "path": "posts/session_7/",
+    "title": "Session 7: Quarto",
+    "description": "Learn how to create reproducible slides and reports within R.",
+    "author": [
+      {
+        "name": "Aleksandra Wilczynska",
+        "url": "https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact/aleksandra-wilczynska"
+      }
+    ],
+    "date": "2024-10-23",
+    "categories": [],
+    "contents": "\r\nThis session will introduce Quarto for publishing reproducible, high-quality documents, such as slides, articles and dashboards, from within R. You can take a look at some examples in the Quarto Gallery.\r\nMaterial\r\nThe material for the session will be available soon!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-10-04T13:06:11+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/session_6/",
+    "title": "Session 6: tidytuesday",
+    "description": "Exploring and visualizing a tidytuesday dataset.",
+    "author": [
+      {
+        "name": "Sam Langton",
+        "url": "www.samlangton.info"
+      }
+    ],
+    "date": "2024-10-09",
+    "categories": [],
+    "contents": "\r\nIn this session we will explore a tidytuesday dataset during a live coding demonstration. The focus will be on data handling and visualization using the tidyverse.\r\nMaterial\r\nThe material for the session will be available soon!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-10-04T13:06:27+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_5/",
     "title": "Session 5: reproducibility",
     "description": "Tips on ensuring your results can be reproduced.",
