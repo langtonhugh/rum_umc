@@ -79,7 +79,8 @@ p4 <- hourly_counts_df %>%
 full_plot <- (p2 + p3) +
   plot_layout(widths = c(1, 2)) +
   plot_annotation(tag_levels = 'A',
-                  title = "Counts of 112 meldingen nationwide, July 2023.") 
+                  title = "Counts of 112 meldingen nationwide, July 2023.",
+                  caption = "Data source: P2000 communications (not complete!)") 
   
 # Save.
 ggsave(plot = full_plot,
