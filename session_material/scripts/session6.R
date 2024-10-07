@@ -78,11 +78,12 @@ p4 <- hourly_counts_df %>%
 # Arrange.
 full_plot <- (p2 + p3) +
   plot_layout(widths = c(1, 2)) +
-  plot_annotation(tag_levels = 'A')
+  plot_annotation(tag_levels = 'A',
+                  title = "Counts of 112 meldingen nationwide, July 2023.") 
   
 # Save.
 ggsave(plot = full_plot,
        filename = "visuals/session6/p2000_example.png",
-       height = 6, width = 24, unit = "cm")
+       height = 7, width = 24, unit = "cm")
 
   
