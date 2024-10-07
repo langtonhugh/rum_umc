@@ -1,7 +1,7 @@
 ---
-title: "Session 6: tidytuesday"
+title: "Session 6: 112 data"
 description: |
-  Exploring and visualizing a tidytuesday dataset.
+  Exploring and visualizing 112 emergency calls.
 author:
   - name: Sam Langton
     url: www.samlangton.info
@@ -13,11 +13,11 @@ output:
     self_contained: false
 ---
 
-In this session we will explore a [tidytuesday dataset](https://github.com/rfordatascience/tidytuesday/tree/master/data/2024) during a live coding demonstration. The focus will be on data handling and visualization using the [tidyverse](https://www.tidyverse.org/). 
+In this session we will explore some data about emergency calls for service (e.g., ambulance) that were scraped from [P2000](https://en.wikipedia.org/wiki/P2000_(network)) communication websites. The session will focus on handling dates (i.e., DD-MM-YYYY HMS) and visualization.
 
 ## Material
 
-The material for the session will be available soon!
+The material for the session is available [here](https://github.com/langtonhugh/rum_umc/blob/main/session_material/scripts/session6.R).
 
 
 ```{r setup, include=FALSE}
