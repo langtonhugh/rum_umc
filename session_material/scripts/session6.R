@@ -22,17 +22,6 @@ clean_df <- subset_df %>%
                                     "Thursday", "Friday" , "Saturday", "Sunday")
   ) 
 
-# Nationwide hourly frequencies by hour (mainly to show study period and gaps).
-p1 <- clean_df %>% 
-  group_by(date_time_r, service) %>% 
-  summarise(counts = n()) %>% 
-  ungroup() %>% 
-  ggplot() +
-  geom_line(mapping = aes(x = date_time_r, y = counts, colour = service)) +
-  facet_wrap(~service, scales = "free", ncol = 1) +
-  theme_bw() +
-  theme(legend.position = "none") 
-
 # Service counts.
 ggplot(data = clean_df) +
   geom_bar(mapping = aes(x = service, fill = service))
@@ -42,11 +31,28 @@ clean_df <- clean_df %>%
   mutate(service = fct_relevel(service, "Fire","Ambulance","Police"))
 
 # Service counts (again).
-p2 <- ggplot(data = clean_df) +
+p1 <- ggplot(data = clean_df) +
   geom_bar(mapping = aes(x = service, fill = service)) +
   labs(x = NULL) +
   theme_bw() +
   theme(legend.position = "none")
+
+# Plot it.
+p1
+
+# Nationwide hourly frequencies by hour (mainly to show study period and gaps).
+p2 <- clean_df %>% 
+  group_by(date_time_r, service) %>% 
+  summarise(counts = n()) %>% 
+  ungroup() %>% 
+  ggplot() +
+  geom_line(mapping = aes(x = date_time_r, y = counts, colour = service)) +
+  facet_wrap(~service, scales = "free", ncol = 1) +
+  theme_bw() +
+  theme(legend.position = "none") 
+
+# Plot it.
+p2
 
 # Hourly counts of incidents.
 hourly_counts_df <- clean_df %>% 
@@ -65,6 +71,9 @@ p3 <- hourly_counts_df %>%
   theme_bw() +
   theme(legend.position = "none") 
 
+# Plot it.
+p3
+
 # # Boxplot.
 # p4 <- hourly_counts_df %>% 
 #   ggplot(mapping = aes(x = hour_of_day, y = counts, group = hour_of_day, fill = service)) +
@@ -76,7 +85,7 @@ p3 <- hourly_counts_df %>%
 #   theme(legend.position = "none")
 
 # Arrange.
-full_plot <- (p2 + p3) +
+full_plot <- (p1 + p3) +
   plot_layout(widths = c(1, 2)) +
   plot_annotation(tag_levels = 'A',
                   title = "Counts of 112 meldingen nationwide, July 2023.",
