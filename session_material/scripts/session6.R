@@ -14,9 +14,9 @@ clean_df <- subset_df %>%
   mutate(date_time_r  = round_date(timestamp, "hour"),
          hour_of_day  = hour(date_time_r),
          week_day     = wday(timestamp , abbr = FALSE, label = TRUE),
-         hour_of_week = hour_of_day + (24 * (wday(timestamp, week_start = 1)-1)), # Create an hour of the week (0-167 hours).
+         # hour_of_week = hour_of_day + (24 * (wday(timestamp, week_start = 1)-1)), # Create an hour of the week (0-167 hours).
          month_naam   = month(timestamp, abbr = FALSE, label = TRUE),
-         week_year    = week(timestamp),
+         # week_year    = week(timestamp),
          week_day_f   = fct_relevel(week_day,
                                     "Monday"  , "Tuesday" , "Wednesday",
                                     "Thursday", "Friday" , "Saturday", "Sunday")
@@ -56,7 +56,7 @@ hourly_counts_df <- clean_df %>%
 
 # Point plot.
 p3 <- hourly_counts_df %>%
-  ggplot(mapping = aes(x = hour_of_day, y = counts, group = 1, col = service),
+  ggplot(mapping = aes(x = hour_of_day, y = counts, col = service),
          shape = 21, fill = "black", colour = NA) +
   geom_point(alpha = 0.4) +
   stat_summary(fun = mean, geom = "line" , col = "grey20", group = 1, linewidth = 0.6) +
@@ -65,15 +65,15 @@ p3 <- hourly_counts_df %>%
   theme_bw() +
   theme(legend.position = "none") 
 
-# Boxplot.
-p4 <- hourly_counts_df %>% 
-  ggplot(mapping = aes(x = hour_of_day, y = counts, group = hour_of_day, fill = service)) +
-  geom_boxplot(outlier.shape = NA) + # this removes outlier points.
-  stat_summary(fun = mean, geom = "point", group = 1) +
-  facet_wrap(~service, scales = "free_y", nrow = 1) +
-  labs(x = "hour of day") +
-  theme_bw() +
-  theme(legend.position = "none")
+# # Boxplot.
+# p4 <- hourly_counts_df %>% 
+#   ggplot(mapping = aes(x = hour_of_day, y = counts, group = hour_of_day, fill = service)) +
+#   geom_boxplot(outlier.shape = NA) + # this removes outlier points.
+#   stat_summary(fun = mean, geom = "point", group = 1) +
+#   facet_wrap(~service, scales = "free_y", nrow = 1) +
+#   labs(x = "hour of day") +
+#   theme_bw() +
+#   theme(legend.position = "none")
 
 # Arrange.
 full_plot <- (p2 + p3) +
