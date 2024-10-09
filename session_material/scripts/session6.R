@@ -6,6 +6,10 @@ library(forcats)
 library(ggplot2)
 library(patchwork)
 
+# Note caveats about data! Incomplete scrapes, and assumptions made about
+# data that might inflate ambulance counts (MKA coded at Ambulance).
+# Demonstration only.
+
 # Load in data.
 subset_df <- read_csv('https://github.com/langtonhugh/p2000_data/raw/refs/heads/main/data/p2000_july2023.csv')
 
