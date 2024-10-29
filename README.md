@@ -10,5 +10,5 @@ If you want to add a new page for a session, navigate to `_posts`, copy a templa
 
 You can add your session material (e.g., data, R scripts) to the repository without building the website. Just navigate to `session_material` and deposit your scripts etc in the relevant folder, then push/pull request the changes.
 
-The repository uses [renv](https://rstudio.github.io/renv/articles/renv.html) to manage the package versions. 
+The repository uses [renv](https://rstudio.github.io/renv/articles/renv.html) to manage package versions. 
 
