@@ -17,7 +17,7 @@ This session will introduce [Quarto](https://quarto.org/) for publishing reprodu
 
 ## Material
 
-The material for the session will be available soon!
+The material for the session was based on the [Carpentries module](https://cforgaci.github.io/r-socialsci/08-quarto.html).
 
 
 ```{r setup, include=FALSE}

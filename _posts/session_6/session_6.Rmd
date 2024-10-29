@@ -1,7 +1,7 @@
 ---
 title: "Session 6: dates"
 description: |
-  Handling dates and visualization using 112 meldingen.
+  Handling dates and visualisation using 112 meldingen.
 author:
   - name: Sam Langton
     url: www.samlangton.info
@@ -13,7 +13,7 @@ output:
     self_contained: false
 ---
 
-In this session we will explore some data about emergency calls for service (e.g., ambulance) that were scraped from [P2000](https://en.wikipedia.org/wiki/P2000_(network)) communication websites. The session will focus on handling dates (i.e., DD-MM-YYYY HMS) and visualization.
+In this session we will explore some data about emergency calls for service (e.g., ambulance) that were scraped from [P2000](https://en.wikipedia.org/wiki/P2000_(network)) communication websites. The session will focus on handling dates (i.e., DD-MM-YYYY HMS) and visualisation.
 
 ## Material
 
