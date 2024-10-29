@@ -1,7 +1,7 @@
 ---
-title: "Session 6: 112 data"
+title: "Session 6: dates"
 description: |
-  Exploring and visualizing 112 emergency calls.
+  Handling dates and visualization using 112 meldingen.
 author:
   - name: Sam Langton
     url: www.samlangton.info

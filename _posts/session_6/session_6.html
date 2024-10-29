@@ -88,9 +88,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Session 6: 112 data</title>
+  <title>Session 6: dates</title>
 
-  <meta property="description" itemprop="description" content="Exploring and visualizing 112 emergency calls."/>
+  <meta property="description" itemprop="description" content="Handling dates and visualization using 112 meldingen."/>
 
 
   <!--  https://schema.org/Article -->
@@ -99,26 +99,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta name="article:author" content="Sam Langton"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Session 6: 112 data"/>
+  <meta property="og:title" content="Session 6: dates"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Exploring and visualizing 112 emergency calls."/>
+  <meta property="og:description" content="Handling dates and visualization using 112 meldingen."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Session 6: 112 data"/>
-  <meta property="twitter:description" content="Exploring and visualizing 112 emergency calls."/>
+  <meta property="twitter:title" content="Session 6: dates"/>
+  <meta property="twitter:description" content="Handling dates and visualization using 112 meldingen."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Session 6: 112 data"]},{"type":"character","attributes":{},"value":["Exploring and visualizing 112 emergency calls.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Sam Langton"]},{"type":"character","attributes":{},"value":["www.samlangton.info"]},{"type":"character","attributes":{},"value":["Amsterdam UMC"]},{"type":"character","attributes":{},"value":["https://www.amsterdamumc.org/en.htm"]}]}]},{"type":"character","attributes":{},"value":["10-09-2024"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Session 6: dates"]},{"type":"character","attributes":{},"value":["Handling dates and visualization using 112 meldingen.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Sam Langton"]},{"type":"character","attributes":{},"value":["www.samlangton.info"]},{"type":"character","attributes":{},"value":["Amsterdam UMC"]},{"type":"character","attributes":{},"value":["https://www.amsterdamumc.org/en.htm"]}]}]},{"type":"character","attributes":{},"value":["10-09-2024"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["session_6_files/anchor-4.2.2/anchor.min.js","session_6_files/bowser-1.9.3/bowser.min.js","session_6_files/distill-2.2.21/template.v2.js","session_6_files/header-attrs-2.26/header-attrs.js","session_6_files/jquery-3.6.0/jquery-3.6.0.js","session_6_files/jquery-3.6.0/jquery-3.6.0.min.js","session_6_files/jquery-3.6.0/jquery-3.6.0.min.map","session_6_files/popper-2.6.0/popper.min.js","session_6_files/tippy-6.2.7/tippy-bundle.umd.min.js","session_6_files/tippy-6.2.7/tippy-light-border.css","session_6_files/tippy-6.2.7/tippy.css","session_6_files/tippy-6.2.7/tippy.umd.min.js","session_6_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["session_6_files/anchor-4.2.2/anchor.min.js","session_6_files/bowser-1.9.3/bowser.min.js","session_6_files/distill-2.2.21/template.v2.js","session_6_files/header-attrs-2.26/header-attrs.js","session_6_files/header-attrs-2.28/header-attrs.js","session_6_files/jquery-3.6.0/jquery-3.6.0.js","session_6_files/jquery-3.6.0/jquery-3.6.0.min.js","session_6_files/jquery-3.6.0/jquery-3.6.0.min.map","session_6_files/popper-2.6.0/popper.min.js","session_6_files/tippy-6.2.7/tippy-bundle.umd.min.js","session_6_files/tippy-6.2.7/tippy-light-border.css","session_6_files/tippy-6.2.7/tippy.css","session_6_files/tippy-6.2.7/tippy.umd.min.js","session_6_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1500,7 +1500,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="session_6_files/header-attrs-2.26/header-attrs.js"></script>
+  <script src="session_6_files/header-attrs-2.28/header-attrs.js"></script>
   <script src="session_6_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="session_6_files/popper-2.6.0/popper.min.js"></script>
   <link href="session_6_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -1521,7 +1521,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Session 6: 112 data","description":"Exploring and visualizing 112 emergency calls.","authors":[{"author":"Sam Langton","authorURL":"www.samlangton.info","affiliation":"Amsterdam UMC","affiliationURL":"https://www.amsterdamumc.org/en.htm","orcidID":""}],"publishedDate":"2024-10-09T00:00:00.000+02:00","citationText":"Langton, 2024"}
+{"title":"Session 6: dates","description":"Handling dates and visualization using 112 meldingen.","authors":[{"author":"Sam Langton","authorURL":"www.samlangton.info","affiliation":"Amsterdam UMC","affiliationURL":"https://www.amsterdamumc.org/en.htm","orcidID":""}],"publishedDate":"2024-10-09T00:00:00.000+02:00","citationText":"Langton, 2024"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1531,11 +1531,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Session 6: 112 data</h1>
+<h1>Session 6: dates</h1>
 
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Exploring and visualizing 112 emergency calls.</p></p>
+<p><p>Handling dates and visualization using 112 meldingen.</p></p>
 </div>
 
 <div class="d-byline">
