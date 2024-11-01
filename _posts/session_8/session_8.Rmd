@@ -1,0 +1,31 @@
+---
+title: "Session 8: Testing your code"
+description: |
+  Learn how run tests on your R code.
+author:
+  - name: Thomas Pronk
+    url: https://thomaspronk.com/
+    affiliation: Amsterdam UMC
+    affiliation_url: https://www.amsterdamumc.org/en.htm
+date: 11-20-2024
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+This session will cover software testing. Thomas maintains an R-package called [splithalfr](https://cran.r-project.org/web/packages/splithalfr/index.html), which features a lot of resampling conducted in very particular ways ([Pronk et al., 2021](https://link.springer.com/article/10.3758/s13423-021-01948-3)). To ensure that the software functions as expected, and stays like that as code is modified, Thomas wrote various tests. During this session, he will describe the testing strategy for [splithalfr](https://cran.r-project.org/web/packages/splithalfr/index.html), incorporating unit, integration, and end-to-end tests. Thomas will also offer a primer on how to automate unit testing via the [testthat](https://testthat.r-lib.org/) R-package.
+
+## Material
+
+The material for the session will be available soon!
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+

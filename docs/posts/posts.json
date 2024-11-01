@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/session_8/",
+    "title": "Session 8: Testing your code",
+    "description": "Learn how run tests on your R code.",
+    "author": [
+      {
+        "name": "Thomas Pronk",
+        "url": "https://thomaspronk.com/"
+      }
+    ],
+    "date": "2024-11-20",
+    "categories": [],
+    "contents": "\r\nThis session will cover software testing. Thomas maintains an R-package called splithalfr, which features a lot of resampling conducted in very particular ways (Pronk et al., 2021). To ensure that the software functions as expected, and stays like that as code is modified, Thomas wrote various tests. During this session, he will describe the testing strategy for splithalfr, incorporating unit, integration, and end-to-end tests. Thomas will also offer a primer on how to automate unit testing via the testthat R-package.\r\nMaterial\r\nThe material for the session will be available soon!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-11-01T18:33:11+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_7/",
     "title": "Session 7: Quarto",
     "description": "Learn how to create reproducible slides and reports within R.",
