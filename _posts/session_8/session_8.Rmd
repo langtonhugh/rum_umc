@@ -1,7 +1,7 @@
 ---
 title: "Session 8: Testing your code"
 description: |
-  Learn how run tests on your R code.
+  Learn how to run tests on your R code.
 author:
   - name: Thomas Pronk
     url: https://thomaspronk.com/
