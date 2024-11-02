@@ -88,7 +88,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Session 8: Testing your code</title>
+  <title>Session 8: Unit tests</title>
 
   <meta property="description" itemprop="description" content="Learn how to run tests on your R code."/>
 
@@ -99,21 +99,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta name="article:author" content="Thomas Pronk"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Session 8: Testing your code"/>
+  <meta property="og:title" content="Session 8: Unit tests"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Learn how to run tests on your R code."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Session 8: Testing your code"/>
+  <meta property="twitter:title" content="Session 8: Unit tests"/>
   <meta property="twitter:description" content="Learn how to run tests on your R code."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Session 8: Testing your code"]},{"type":"character","attributes":{},"value":["Learn how to run tests on your R code.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Thomas Pronk"]},{"type":"character","attributes":{},"value":["https://thomaspronk.com/"]},{"type":"character","attributes":{},"value":["Amsterdam UMC"]},{"type":"character","attributes":{},"value":["https://www.amsterdamumc.org/en.htm"]}]}]},{"type":"character","attributes":{},"value":["11-20-2024"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Session 8: Unit tests"]},{"type":"character","attributes":{},"value":["Learn how to run tests on your R code.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Thomas Pronk"]},{"type":"character","attributes":{},"value":["https://thomaspronk.com/"]},{"type":"character","attributes":{},"value":["Amsterdam UMC"]},{"type":"character","attributes":{},"value":["https://www.amsterdamumc.org/en.htm"]}]}]},{"type":"character","attributes":{},"value":["11-20-2024"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1521,7 +1521,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Session 8: Testing your code","description":"Learn how to run tests on your R code.","authors":[{"author":"Thomas Pronk","authorURL":"https://thomaspronk.com/","affiliation":"Amsterdam UMC","affiliationURL":"https://www.amsterdamumc.org/en.htm","orcidID":""}],"publishedDate":"2024-11-20T00:00:00.000+01:00","citationText":"Pronk, 2024"}
+{"title":"Session 8: Unit tests","description":"Learn how to run tests on your R code.","authors":[{"author":"Thomas Pronk","authorURL":"https://thomaspronk.com/","affiliation":"Amsterdam UMC","affiliationURL":"https://www.amsterdamumc.org/en.htm","orcidID":""}],"publishedDate":"2024-11-20T00:00:00.000+01:00","citationText":"Pronk, 2024"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1531,7 +1531,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Session 8: Testing your code</h1>
+<h1>Session 8: Unit tests</h1>
 
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
@@ -1545,7 +1545,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p>This session will cover software testing. Thomas maintains an R-package called <a href="https://cran.r-project.org/web/packages/splithalfr/index.html">splithalfr</a>, which features a lot of resampling conducted in very particular ways (<a href="https://link.springer.com/article/10.3758/s13423-021-01948-3">Pronk et al., 2021</a>). To ensure that the software functions as expected, and stays like that as code is modified, Thomas wrote various tests. During this session, he will describe the testing strategy for <a href="https://cran.r-project.org/web/packages/splithalfr/index.html">splithalfr</a>, incorporating unit, integration, and end-to-end tests. Thomas will also offer a primer on how to automate unit testing via the <a href="https://testthat.r-lib.org/">testthat</a> R-package.</p>
+<p>Thomas maintains an R package called <a href="https://cran.r-project.org/web/packages/splithalfr/index.html">splithalfr</a>, which features some bespoke resampling methods (<a href="https://link.springer.com/article/10.3758/s13423-021-01948-3">Pronk et al., 2021</a>). To make sure everything in the package works correctly, he’s written a few unit tests. In this RUM-UMC session, Thomas will give a beginner-friendly introduction to unit testing in R, illustrated by the <a href="https://cran.r-project.org/web/packages/splithalfr/index.html">splithalfr</a> package. Following that, we will briefly dip our toes into test automation via <a href="https://testthat.r-lib.org/">testthat</a></p>
 <h2 id="material">Material</h2>
 <p>The material for the session will be available soon!</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>

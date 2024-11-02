@@ -1,5 +1,5 @@
 ---
-title: "Session 8: Testing your code"
+title: "Session 8: Unit tests"
 description: |
   Learn how to run tests on your R code.
 author:
@@ -13,7 +13,7 @@ output:
     self_contained: false
 ---
 
-This session will cover software testing. Thomas maintains an R-package called [splithalfr](https://cran.r-project.org/web/packages/splithalfr/index.html), which features a lot of resampling conducted in very particular ways ([Pronk et al., 2021](https://link.springer.com/article/10.3758/s13423-021-01948-3)). To ensure that the software functions as expected, and stays like that as code is modified, Thomas wrote various tests. During this session, he will describe the testing strategy for [splithalfr](https://cran.r-project.org/web/packages/splithalfr/index.html), incorporating unit, integration, and end-to-end tests. Thomas will also offer a primer on how to automate unit testing via the [testthat](https://testthat.r-lib.org/) R-package.
+Thomas maintains an R package called [splithalfr](https://cran.r-project.org/web/packages/splithalfr/index.html), which features some bespoke resampling methods ([Pronk et al., 2021](https://link.springer.com/article/10.3758/s13423-021-01948-3)). To make sure everything in the package works correctly, he’s written a few unit tests. In this RUM-UMC session, Thomas will give a beginner-friendly introduction to unit testing in R, illustrated by the [splithalfr](https://cran.r-project.org/web/packages/splithalfr/index.html) package. Following that, we will briefly dip our toes into test automation via [testthat](https://testthat.r-lib.org/)
 
 ## Material
 
