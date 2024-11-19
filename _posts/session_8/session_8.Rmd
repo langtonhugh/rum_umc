@@ -17,7 +17,7 @@ Thomas maintains an R package called [splithalfr](https://cran.r-project.org/web
 
 ## Material
 
-The material for the session will be available soon!
+The material for the session is available [here](https://github.com/tpronk/rum_umc_unit_testing).
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
