@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/session_9/",
+    "title": "Session 9: GitHub",
+    "description": "Learn how to use GitHub Desktop for version control.",
+    "author": [
+      {
+        "name": "Sam Langton",
+        "url": "https://www.samlangton.info/"
+      }
+    ],
+    "date": "2024-12-04",
+    "categories": [],
+    "contents": "\r\nIn this session we will learn how to use GitHub Desktop for version control. Once you’ve mastered the basics of version control using GitHub Desktop, you will be better able to track changes to your own code, revert to old versions of your scripts, collaborate with others, and avoid the worry of losing your work.\r\nYou are welcome to sit back and listen, but if you’d like to actively follow along with the exercise during the workshop, please prepare the following steps beforehand:\r\nSign-up to GitHub.\r\nDownload GitHub Desktop.\r\nSign-in to your GitHub account within GitHub Desktop.\r\nDownload the example R project that we will work with. Unzip it and place the folder somewhere on your local machine.\r\nMaterial\r\nThe material for the session is available here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-11-27T14:54:40+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_8/",
     "title": "Session 8: Unit tests",
     "description": "Learn how to run tests on your R code.",
