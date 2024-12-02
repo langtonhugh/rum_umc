@@ -24,7 +24,7 @@ You are welcome to sit back and listen, but if you'd like to actively follow alo
 
 ## Material
 
-The material for the session is available [here](https://github.com/langtonhugh/github_desktop).
+The material for the session is available [here](https://rpubs.com/langton_/githubdesktop).
 
 
 
