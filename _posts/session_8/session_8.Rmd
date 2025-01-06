@@ -1,5 +1,5 @@
 ---
-title: "Session 8: Unit tests"
+title: "Session 8: unit tests"
 description: |
   Learn how to run tests on your R code.
 author:
