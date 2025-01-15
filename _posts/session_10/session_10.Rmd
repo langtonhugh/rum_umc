@@ -17,7 +17,7 @@ In this session we will learn how to build a personal (academic) website using t
 
 ## Material
 
-The material for the session is available [here](https://github.com/langtonhugh/website_distill). This contains the source material for the website we build during the session itself.
+The material for the session is available [here](https://github.com/langtonhugh/demo_website). This contains the source material for the website we build during the session itself.
 
 
 
