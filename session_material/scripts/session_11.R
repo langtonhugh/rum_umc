@@ -1,21 +1,67 @@
 # Load libraries.
-library(tidytuesdayR)
 library(readr)
-library(ggplot2)
 library(dplyr)
+library(ggplot2)
 library(ggridges)
+library(patchwork)
 
-# Load data.
-episodes <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-02-04/simpsons_episodes.csv')
+# Set theme.
+theme_set(theme_bw())
 
-# Correlation between views and imdb rating.
-episodes %>% 
-  filter(views > 1000) %>% # no explanation for those with very few views.
-  ggplot(data = .) +
-  geom_point(mapping = aes(x = imdb_rating, y = views))
+# Kaggle data csv (free but requires login).
+# https://www.kaggle.com/datasets/hod101s/simpsons-imdb-ratings?resource=download
+episodes <- read_csv("data/simpsons/SimpsonsData.csv")
 
-# Distribution of ratings per season.
+# Explore.
+summary(episodes)
+glimpse(episodes)
+
+# Sort out names.
+episodes <- episodes %>% 
+  janitor::clean_names() %>% 
+  mutate(season = as.factor(season))
+
+# Basic distribution of ratings per season.
 ggplot(data = episodes) +
-  geom_
+  geom_density(mapping = aes(x = rating,
+                             group = season, fill = season),
+               alpha = 0.5) +
+  theme(legend.position = "none")
 
+# Ridges plot.
+ridges <- ggplot(data = episodes) +
+  geom_density_ridges_gradient(mapping = aes(x = rating,
+                                    y = season, fill = season)) +
+  theme(legend.position = "none") +
+  scale_fill_viridis_d() 
 
+# Extract proper date.
+episodes <- episodes %>% 
+  mutate(date_lub = lubridate::dmy(airdate))
+
+# Visualise long-term individual trend.
+points <- ggplot(data = episodes) +
+  geom_point(mapping = aes(x = date_lub, y = rating, colour = season)) +
+  labs(x = "date episode aired") +
+  scale_colour_viridis_d() +
+  theme(legend.position = "none") 
+
+# Visualise distribution trend.
+boxplots <- ggplot(data = episodes) +
+  geom_boxplot(mapping = aes(x = season, y = rating, fill = season)) +
+  scale_fill_viridis_d() +
+  labs(x = "seasons over time") +
+  theme(legend.position = "none",
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.title.x = element_text(vjust = 5)) 
+
+# Arrange plots and add caption.
+(ridges) + (points / boxplots) +
+  plot_annotation(title = "Is 'The Simpsons' really getting worse?",
+                  caption = "Data source: Manas Acharya (Kaggle)") &
+  theme(plot.title = element_text(hjust = 0.5))
+
+# Save.
+ggsave(filename = "visuals/session11/simpsons_rating_plot.png",
+       height = 20, width = 20, unit = "cm", dpi = 300)
