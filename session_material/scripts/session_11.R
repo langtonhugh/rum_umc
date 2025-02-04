@@ -59,7 +59,7 @@ boxplots <- ggplot(data = episodes) +
 # Arrange plots and add caption.
 (ridges) + (points / boxplots) +
   plot_annotation(title = "Is 'The Simpsons' really getting worse?",
-                  caption = "Data source: Manas Acharya (Kaggle)") &
+                  caption = "Data source: IMDB ratings compiled by Manas Acharya (Kaggle)") &
   theme(plot.title = element_text(hjust = 0.5))
 
 # Save.
