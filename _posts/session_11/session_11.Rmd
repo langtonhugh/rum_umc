@@ -1,0 +1,23 @@
+---
+title: "Session 11: data visualisation"
+description: |
+  Learn about data visualisation using IMDB data on The Simpsons.
+author:
+  - name: Sam Langton
+    url: https://www.samlangton.info/
+    affiliation: Amsterdam UMC
+    affiliation_url: https://www.amsterdamumc.org/en.htm
+date: 02-12-2025
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+In this session we will use various data visualisation skills to explore the all-important question: **has The Simpsons got worse over time?**. We do this using data scraped from IMDB that has been made available [on Kaggle](https://www.kaggle.com/datasets/hod101s/simpsons-imdb-ratings?resource=download).
+
+## Material
+
+The material for the session is available [here](https://github.com/langtonhugh/rum_umc/tree/main/session_material/scripts). This contains a complete prep script and the script used during the live demonstration itself.
+
+
+

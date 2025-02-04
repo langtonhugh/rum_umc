@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/session_11/",
+    "title": "Session 11: data visualisation",
+    "description": "Learn about data visualisation using IMDB data on The Simpsons.",
+    "author": [
+      {
+        "name": "Sam Langton",
+        "url": "https://www.samlangton.info/"
+      }
+    ],
+    "date": "2025-02-12",
+    "categories": [],
+    "contents": "\r\nIn this session we will use various data visualisation skills to explore the all-important question: has The Simpsons got worse over time?. We do this using data scraped from IMDB that has been made available on Kaggle.\r\nMaterial\r\nThe material for the session is available here. This contains a complete prep script and the script used during the live demonstration itself.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-02-04T14:47:46+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_10/",
     "title": "Session 10: building websites",
     "description": "Learn how to build websites using the distill package.",
