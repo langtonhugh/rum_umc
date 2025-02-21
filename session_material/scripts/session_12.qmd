@@ -1,0 +1,78 @@
+---
+title: "RUM-UMC: Session 12"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+Here's an example of what your results can look like **without any** manual writing, Excel or copy+paste!
+
+```{r}
+# Load libraries.
+library(sjPlot)
+library(dplyr)
+library(ggplot2)
+
+# Execute the prep script in the background.
+source("../scripts/session_12_data_prep.R")
+
+# Fit a model.
+fit <- glm(y ~ sex + dep + education + barthel,
+           data = df, family = binomial(link = "logit"))
+```
+
+## Table of results example
+
+```{r}
+library(parameters)
+
+mod_para <- model_parameters(fit) %>% 
+  mutate(SE = round(SE, 2)) # one-off
+  
+print_md(mod_para)
+```
+
+
+## Graph of results: example 1
+
+```{r}
+plot_model(fit, colors = "black", transform = NULL) +
+  theme_bw() +
+  labs(title = "Plot of regression results")
+```
+
+## Graph of results: example 2
+
+```{r}
+# Load extra library.
+library(broom)
+
+# Manual (tidy) results using broom package.
+fit_df <- tidy(fit)
+
+# Additional steps before plot.
+fit_extras_df <- fit_df %>% 
+  filter(term != "(Intercept)") %>%
+  mutate(upper = estimate+(std.error*1.96),
+         lower = estimate-(std.error*1.96),
+         direc = if_else(estimate > 0, "postive", "negative"),
+         sig   = if_else(p.value <= 0.05, "p < 0.05", "p > 0.05"))
+
+# Plot those results using ggplot2.
+ggplot(data = fit_extras_df,
+         mapping = aes(y = term,
+                       x = estimate,
+                       colour = sig)) +
+  geom_point() +
+  geom_errorbarh(mapping = aes(xmin = lower,
+                               xmax = upper), height = 0.5) +
+  scale_x_continuous(limits = c(-1, 2)) +
+  scale_colour_manual(values = c("black","grey60")) +
+  labs(title = "Plot of regression results",
+       x = NULL, colour = NULL, y = NULL) +
+  theme_bw() +
+  theme(legend.position = "bottom")
+```
+
