@@ -1,0 +1,23 @@
+---
+title: "Session 14: Rshiny"
+description: |
+  Learn how to make a Rshiny website/dashboard.
+author:
+  - name: Merel Postema
+    url:
+    affiliation: Amsterdam UMC
+    affiliation_url: https://www.amsterdamumc.org/en.htm
+date: 03-26-2025 ## month-day-year
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+In this session we will learn how to generate a website/dashboard using Rshiny.
+
+## Material
+
+The material will be available soon.
+
+
+
