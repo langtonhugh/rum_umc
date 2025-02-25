@@ -30,7 +30,7 @@ ggplot(data = episodes) +
 
 # Ridges plot.
 ridges <- ggplot(data = episodes) +
-  geom_density_ridges_gradient(mapping = aes(x = rating,
+  geom_density_ridges(mapping = aes(x = rating,
                                     y = season, fill = season)) +
   theme(legend.position = "none") +
   scale_fill_viridis_d() 

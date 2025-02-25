@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/session_12/",
+    "title": "Session 12: reporting regression results",
+    "description": "Learn how to make tables and plots of regression results.",
+    "author": [
+      {
+        "name": "Sam Langton",
+        "url": "https://www.samlangton.info/"
+      }
+    ],
+    "date": "2025-02-26",
+    "categories": [],
+    "contents": "\r\nIn this session we will learn how to automatically generate tidy tables from your regression results, and then visualize them using forest plots.\r\nMaterial\r\nThe material for the session is available here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-02-25T08:52:16+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_11/",
     "title": "Session 11: data visualisation",
     "description": "Learn about data visualisation using IMDB data on The Simpsons.",
