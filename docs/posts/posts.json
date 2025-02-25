@@ -13,7 +13,24 @@
     "categories": [],
     "contents": "\r\nIn this session we will learn how to generate a website/dashboard using Rshiny.\r\nMaterial\r\nThe material will be available soon.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:53:59+01:00",
+    "last_modified": "2025-02-25T13:15:11+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/session_13/",
+    "title": "Session 13: TBC/NTB",
+    "description": "We don't have a topic for this week yet!",
+    "author": [
+      {
+        "name": "TBC/NTB",
+        "url": {}
+      }
+    ],
+    "date": "2025-03-12",
+    "categories": [],
+    "contents": "\r\nWe don’t have a topic for this week yet!\r\nMaterial\r\nThe material will be available soon.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-02-25T13:21:54+01:00",
     "input_file": {}
   },
   {
@@ -30,7 +47,7 @@
     "categories": [],
     "contents": "\r\nIn this session we will learn how to automatically generate tidy tables from your regression results, and then visualize them using forest plots.\r\nMaterial\r\nThe material for the session is available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2025-02-25T08:52:16+01:00",
     "input_file": {}
   },
   {
@@ -47,7 +64,7 @@
     "categories": [],
     "contents": "\r\nIn this session we will use various data visualisation skills to explore the all-important question: has The Simpsons got worse over time?. We do this using data scraped from IMDB that has been made available on Kaggle.\r\nMaterial\r\nThe material for the session is available here. This contains a complete prep script and the script used during the live demonstration itself.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2025-02-04T14:47:46+01:00",
     "input_file": {}
   },
   {
@@ -64,7 +81,7 @@
     "categories": [],
     "contents": "\r\nIn this session we will learn how to build a personal (academic) website using the distill package. The live demonstration will be loosely based on this material from Ariel Muldoon.\r\nMaterial\r\nThe material for the session is available here. This contains the source material for the website we build during the session itself.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2025-01-15T09:29:10+01:00",
     "input_file": {}
   },
   {
@@ -81,7 +98,7 @@
     "categories": [],
     "contents": "\r\nIn this session we will learn how to use GitHub Desktop for version control. Once you’ve mastered the basics of version control using GitHub Desktop, you will be better able to track changes to your own code, revert to old versions of your scripts, collaborate with others, and avoid the worry of losing your work.\r\nYou are welcome to sit back and listen, but if you’d like to actively follow along with the exercise during the workshop, please prepare the following steps beforehand:\r\nSign-up to GitHub.\r\nDownload GitHub Desktop.\r\nSign-in to your GitHub account within GitHub Desktop.\r\nDownload the example R project that we will work with. Unzip it and place the folder somewhere on your local machine.\r\nMaterial\r\nThe material for the session is available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2024-12-02T14:11:57+01:00",
     "input_file": {}
   },
   {
@@ -98,7 +115,7 @@
     "categories": [],
     "contents": "\r\nThomas maintains an R package called splithalfr, which features some bespoke resampling methods (Pronk et al., 2021). To make sure everything in the package works correctly, he’s written a few unit tests. In this RUM-UMC session, Thomas will give a beginner-friendly introduction to unit testing in R, illustrated by the splithalfr package. Following that, we will briefly dip our toes into test automation via testthat\r\nMaterial\r\nThe material for the session is available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2025-01-06T09:27:40+01:00",
     "input_file": {}
   },
   {
@@ -115,7 +132,7 @@
     "categories": [],
     "contents": "\r\nThis session will introduce Quarto for publishing reproducible, high-quality documents, such as slides, articles and dashboards, from within R. You can take a look at some examples in the Quarto Gallery.\r\nMaterial\r\nThe material for the session is available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2024-10-29T16:30:32+01:00",
     "input_file": {}
   },
   {
@@ -132,7 +149,7 @@
     "categories": [],
     "contents": "\r\nIn this session we will explore some data about emergency calls for service (e.g., ambulance) that were scraped from P2000 communication websites. The session will focus on handling dates (i.e., DD-MM-YYYY HMS) and visualisation.\r\nMaterial\r\nThe material for the session is available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2024-10-29T14:08:40+01:00",
     "input_file": {}
   },
   {
@@ -149,7 +166,7 @@
     "categories": [],
     "contents": "\r\nHave you ever been sent an R script by a colleague and the code fails to run as promised? Or have you ever re-run one of your own scripts after a few weeks, and you get a new error or different results to last time? This has happened to pretty much every R user, but it is avoidable! In this session, we cover some top-tips for ensuring that the R scripts you write today will run again in the same way tomorrow (both for yourself, and colleagues).\r\nMaterial\r\nThe material for the session is available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2024-09-13T10:54:42+02:00",
     "input_file": {}
   },
   {
@@ -166,7 +183,7 @@
     "categories": [],
     "contents": "\r\nWe will take a short break over summer. In the meantime, if you want to join the mailing list or suggest a topic for a future session, please get in touch!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2024-09-12T14:35:58+02:00",
     "input_file": {}
   },
   {
@@ -183,7 +200,7 @@
     "categories": [],
     "contents": "\r\nIn this session, Ayu Dewi will give a live demonstration of how to create visualisations that summarise the results of your literature review.\r\nMaterial\r\nYou can access all the material used in this workshop here. Even if you do not use GitHub, you can still download all this material by clicking on the green Code icon button, and then Download ZIP. Once you’ve unzipped that file, you are good to go.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2024-07-17T12:55:07+02:00",
     "input_file": {}
   },
   {
@@ -200,7 +217,7 @@
     "categories": [],
     "contents": "\r\nIn this session, we will give an introduction to geographic data and mapping using sf.\r\nMaterial\r\nYou can view my full prep script here. The script used during the session itself is here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2024-07-17T09:21:29+02:00",
     "input_file": {}
   },
   {
@@ -217,7 +234,7 @@
     "categories": [],
     "contents": "\r\nIn this session, we will give an introduction to data visualisation using ggplot2 via a live coding demonstration.\r\nMaterial\r\nYou can view my prep script here, and the script used in the demonstration itself is available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2024-07-17T09:20:18+02:00",
     "input_file": {}
   },
   {
@@ -234,7 +251,7 @@
     "categories": [],
     "contents": "\r\nIn this session, we kick-off the R user meeting for Amsterdam UMC (RUM-UMC) with personal introductions, a conversation to find out people’s preferences for format and timings (e.g., frequency of meets, hybrid), followed by a brief demonstration of tidytuesday.\r\nMaterial\r\nYou can find the script used during the session here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T10:35:26+01:00",
+    "last_modified": "2024-07-17T09:19:54+02:00",
     "input_file": {}
   }
 ]
