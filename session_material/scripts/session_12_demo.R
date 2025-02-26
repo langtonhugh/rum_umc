@@ -4,45 +4,68 @@ library(dplyr)
 library(broom)
 library(ggplot2)
 
-# Execute my prep script in the background.
-source(file = "scripts/session_12_data_prep.R")
+# Execute prep script in the background.
+source("scripts/session_12_data_prep.R")
 
-# Explore data.
-glimpse(df)
-head(df)
-
-# Fit a model (caveat: this is an example only).
+# Run the regression model.
 fit <- glm(y ~ sex + dep + education + barthel,
            data = df,
            family = binomial(link = "logit"))
 
-# Typical way of looking at the results.
+# Basic ways of showing results.
 fit
 summary(fit)
 
-# Plot table nicely.
+# Print a nicer table to my view pane.
 tab_model(fit, transform = NULL)
 
-# Make a forest plot.
-plot_model(fit, transform = NULL)
+# Create a plot of the results.
+plot_model(fit, transform = NULL) +
+  labs(title = "Label for Y variable") +
+  theme_bw()
 
-# Manual table.
-fit1_df <- tidy(fit)
-fit2_df <- tidy(fit,conf.int = TRUE)
-View(fit_df)
+# Extract results using broom.
+fit_df <- tidy(fit, conf.int = TRUE)
 
-fit2_df %>% 
-  mutate(
-    sig   = if_else(p.value <= 0.05, "p < 0.05", "p > 0.05")
-  ) %>%
-  ggplot(data = ., mapping = aes(y = term,
-                     x = estimate,
-                     colour = sig)) +
+# Add a flag for statistical sig.
+fit_df <- fit_df %>% 
+  mutate(stat_sig = if_else(p.value < 0.05,
+                            "stat. sig.",
+                            "not stat. sig."))
+
+# Manual results plot.
+ggplot(data = fit_df,
+       mapping = aes(x = estimate, y = term,
+                     colour = stat_sig)) +
   geom_point() +
   geom_errorbarh(mapping = aes(xmin = conf.low,
                                xmax = conf.high)) +
-  scale_x_continuous(limits = c(-1, 2)) +
-  scale_colour_manual(values = c("black","grey60")) +
-  labs(title = "Plot of regression results",
-       x = NULL, colour = NULL) +
-  theme_bw()
+  scale_x_continuous(limits = c(-3, 3)) +
+  scale_colour_manual(values = c("black", "grey60")) +
+  theme_bw() +
+  labs(title = "My regression results",
+       y = NULL,
+       colour = NULL)
+
+# Add two results tables together.
+# Run the regression model.
+fit1 <- glm(y ~ sex + dep + education + barthel,
+           data = df,
+           family = binomial(link = "logit"))
+
+fit2 <- glm(y ~ sex + dep + barthel,
+            data = df,
+            family = binomial(link = "logit"))
+
+# Tidy both up.
+fit1_df <- tidy(fit1, conf.int = TRUE) %>% 
+  mutate(model_name = "Fit1_model")
+
+fit2_df <- tidy(fit2, conf.int = TRUE) %>% 
+  mutate(model_name = "Fit2_model")
+
+# Bind them together.
+fit12_df <- bind_rows(fit1_df, fit2_df)
+
+
+
