@@ -67,5 +67,28 @@ fit2_df <- tidy(fit2, conf.int = TRUE) %>%
 # Bind them together.
 fit12_df <- bind_rows(fit1_df, fit2_df)
 
+# Example of a 'Table 1'. Note that this is just a generic
+# example irrespective of the variable types (e.g., categorical).
+# Please verify it!
 
+# Create the function to make a Table 1.
+table1_fun <- function(dat){
+  data.frame(
+    Variable = names(dat),
+    Missing  = as.numeric(lapply(dat, function(x) {sum   (is.na(x))})),
+    Mean     = as.numeric(lapply(dat, function(x) {mean  (x, na.rm = TRUE)} )),
+    Median   = as.numeric(lapply(dat, function(x) {median(x, na.rm = TRUE)} )),
+    Min.     = as.numeric(lapply(dat, function(x) {min   (x, na.rm = TRUE)} )),
+    Max.     = as.numeric(lapply(dat, function(x) {max   (x, na.rm = TRUE)} )),
+    SD       = as.numeric(lapply(dat, function(x) {sd    (x, na.rm = TRUE)} ))
+  )
 
+}
+
+# Make all variable numeric. The above will only work for numeric variables.
+df_num <- df %>% 
+  mutate_all(as.numeric)
+
+# Apply the function to our data. This is a data frame object you can save
+# or use in an rmarkdown/quarto file.
+table1_fun(df_num)
