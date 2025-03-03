@@ -24,26 +24,20 @@ plot_model(fit, transform = NULL)
 # Table of results.
 tab_model(fit, transform = NULL)
 
-# Manual (tidy) results using broom package.
-fit_df <- tidy(fit)
-fit_df
+# Manual table.
+fit1_df <- tidy(fit)
+fit2_df <- tidy(fit,conf.int = TRUE)
 
-# Additional steps before plot.
-fit_extras_df <- fit_df %>% 
-  filter(term != "intercept") %>%
-  mutate(upper = estimate+(std.error*1.96),
-         lower = estimate-(std.error*1.96),
-         direc = if_else(estimate > 0, "postive", "negative"),
-         sig   = if_else(p.value <= 0.05, "p < 0.05", "p > 0.05"))
-
-# Plot those results using ggplot2.
-ggplot(data = fit_extras_df,
-         mapping = aes(y = term,
-                       x = estimate,
-                       colour = sig)) +
+fit2_df %>% 
+  mutate(
+    sig   = if_else(p.value <= 0.05, "p < 0.05", "p > 0.05")
+  ) %>%
+  ggplot(data = ., mapping = aes(y = term,
+                                 x = estimate,
+                                 colour = sig)) +
   geom_point() +
-  geom_errorbarh(mapping = aes(xmin = lower,
-                               xmax = upper,)) +
+  geom_errorbarh(mapping = aes(xmin = conf.low,
+                               xmax = conf.high)) +
   scale_x_continuous(limits = c(-1, 2)) +
   scale_colour_manual(values = c("black","grey60")) +
   labs(title = "Plot of regression results",

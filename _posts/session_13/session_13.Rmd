@@ -1,10 +1,10 @@
 ---
-title: "Session 13: TBC/NTB"
+title: "Session 13: making descriptive tables"
 description: |
-  We don't have a topic for this week yet!
+  Creating tables of descriptive statistics.
 author:
-  - name: TBC/NTB
-    url:
+  - name: Sam Langton
+    url: https://www.samlangton.info/
     affiliation: Amsterdam UMC
     affiliation_url: https://www.amsterdamumc.org/en.htm
 date: 03-12-2025 ## month-day-year
@@ -13,11 +13,10 @@ output:
     self_contained: false
 ---
 
-We don't have a topic for this week yet!
+This week we will explore how to create 'Table 1' descriptive tables using an R script. In doing so, we will cover some new topics including loops and creating your own functions.
 
 ## Material
 
-The material will be available soon.
-
+The material will be available soon!
 
 

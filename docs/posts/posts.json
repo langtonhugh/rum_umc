@@ -2,7 +2,7 @@
   {
     "path": "posts/session_14/",
     "title": "Session 14: Rshiny",
-    "description": "Learn how to make a Rshiny website/dashboard.",
+    "description": "Learn how to make an Rshiny app.",
     "author": [
       {
         "name": "Merel Postema",
@@ -11,26 +11,26 @@
     ],
     "date": "2025-03-26",
     "categories": [],
-    "contents": "\r\nIn this session we will learn how to generate a website/dashboard using Rshiny.\r\nMaterial\r\nThe material will be available soon.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nIn this session we will learn how to generate apps/dashboards using Rshiny.\r\nMaterial\r\nThe material will be available soon!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T13:15:11+01:00",
+    "last_modified": "2025-03-03T10:15:49+01:00",
     "input_file": {}
   },
   {
     "path": "posts/session_13/",
-    "title": "Session 13: TBC/NTB",
-    "description": "We don't have a topic for this week yet!",
+    "title": "Session 13: making descriptive tables",
+    "description": "Creating tables of descriptive statistics.",
     "author": [
       {
-        "name": "TBC/NTB",
-        "url": {}
+        "name": "Sam Langton",
+        "url": "https://www.samlangton.info/"
       }
     ],
     "date": "2025-03-12",
     "categories": [],
-    "contents": "\r\nWe don’t have a topic for this week yet!\r\nMaterial\r\nThe material will be available soon.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThis week we will explore how to create ‘Table 1’ descriptive tables using an R script. In doing so, we will cover some new topics including loops and creating your own functions.\r\nMaterial\r\nThe material will be available soon!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-25T13:21:54+01:00",
+    "last_modified": "2025-03-03T10:14:22+01:00",
     "input_file": {}
   },
   {

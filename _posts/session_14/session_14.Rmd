@@ -1,7 +1,7 @@
 ---
 title: "Session 14: Rshiny"
 description: |
-  Learn how to make a Rshiny website/dashboard.
+  Learn how to make an Rshiny app.
 author:
   - name: Merel Postema
     url:
@@ -13,11 +13,11 @@ output:
     self_contained: false
 ---
 
-In this session we will learn how to generate a website/dashboard using Rshiny.
+In this session we will learn how to generate apps/dashboards using Rshiny.
 
 ## Material
 
-The material will be available soon.
+The material will be available soon!
 
 
 
