@@ -17,6 +17,6 @@ This week we will explore how to create 'Table 1' descriptive tables using an R 
 
 ## Material
 
-The material will be available soon!
+The material for the session is available [here](https://github.com/langtonhugh/rum_umc/tree/main/session_material/scripts).
 
 
