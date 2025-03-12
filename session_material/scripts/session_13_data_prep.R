@@ -1,24 +1,13 @@
-# Data prep script for session 12. This is just replicating
-# the data handling in the vignette.
-# https://cran.r-project.org/web/packages/sjPlot/vignettes/blackwhitefigures.html
-
 # Load libraries.
-library(sjPlot)
+library(ggplot2)
 library(dplyr)
 
 # Load example data.
-data(efc)
+data(mpg)
 
-# Create a binary response Y variable.
-df <- efc %>% 
-  mutate(y = if_else(neg_c_7 < median(neg_c_7, na.rm = TRUE), 0, 1),
-         sex = as.factor(c161sex),
-         dep = as.factor(e42dep),
-         education = as.factor(c172code),
-         barthel = as.numeric(barthtot)
-         ) %>% 
-  select(y, sex, dep, education, barthel) %>% 
-  mutate_all(as.numeric)
+# Make selection.
+df <- mpg %>% 
+  select(displ, cyl, cty, hwy)
 
-# Remove the original dataframe.
-rm(efc)
+# Remove original.
+rm(mpg)
