@@ -1,14 +1,20 @@
 # Load libraries.
 library(dplyr)
+library(ggplot2)
 
-# Execute prep script. It's the same data is last workshop.
+# Execute prep script. 
 source("scripts/session_13_data_prep.R")
 
 # Check class of variables.
-mean(df$y, na.rm = TRUE)
+mean(df$displ, na.rm = TRUE)
 
+# List approach.
 lapply(df, mean, na.rm = TRUE)
+
+# Same but vector output.
 sapply(df, mean, na.rm = TRUE )
+
+# We can use this basis to create our own function.
 
 # Create table function.
 table1_fun <- function(rawdata){
@@ -19,6 +25,7 @@ table1_fun <- function(rawdata){
     Min.     = sapply(rawdata, min   , na.rm = TRUE) ,
     Max.     = sapply(rawdata, max   , na.rm = TRUE) ,
     SD       = sapply(rawdata, sd    , na.rm = TRUE),
+    # Then we use a new function within this function.
     Missing  = sapply(rawdata, function(x) {sum   (is.na(x))}),
     row.names = NULL
   ) %>% 
@@ -29,6 +36,12 @@ table1_fun <- function(rawdata){
 # Run the function.
 table1 <- table1_fun(df)
 table1
+
+# Another example of lapply and creating functions.
+lapply(df, function(var){
+  ggplot(data = df) +
+    geom_histogram(mapping = aes(x = var))
+})
 
 # A for loop example (covered only if asked).
 list_of_means <- list()
