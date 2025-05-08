@@ -1,19 +1,19 @@
 [
   {
     "path": "posts/session_15/",
-    "title": "Session 15: TBD",
-    "description": "Still looking for volunteers!",
+    "title": "Session 15: functions",
+    "description": "Learn about functions in R.",
     "author": [
       {
-        "name": "",
+        "name": "Merel Postema",
         "url": {}
       }
     ],
     "date": "2025-05-14",
     "categories": [],
-    "contents": "\r\nNot yet decided what the topic will be. Your input is welcome!\r\n\r\n\r\n\r\n",
+    "contents": "\r\nDuring this session you will learn about functions in R.\r\nThe session is be based on chapter 6 of of the ‘Advanced R’ book in Chapman & Hall’s R Series.\r\nsource: https://adv-r.hadley.nz/functions.html\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-03-27T17:31:27+01:00",
+    "last_modified": "2025-05-08T21:19:02+02:00",
     "input_file": {}
   },
   {

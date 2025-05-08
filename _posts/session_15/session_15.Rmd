@@ -1,9 +1,9 @@
 ---
-title: "Session 15: TBD"
+title: "Session 15: functions"
 description: |
-  Still looking for volunteers!
+  Learn about functions in R.
 author:
-  - name: 
+  - name: Merel Postema 
     url:
     affiliation: 
     affiliation_url: 
@@ -13,8 +13,9 @@ output:
     self_contained: false
 ---
 
-Not yet decided what the topic will be. Your input is welcome!
-
+During this session you will learn about functions in R.
+The session is be based on chapter 6 of of the 'Advanced R' book in Chapman & Hall's R Series.
+source: https://adv-r.hadley.nz/functions.html 
 
 
 
