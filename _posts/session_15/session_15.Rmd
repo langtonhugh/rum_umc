@@ -14,8 +14,4 @@ output:
 ---
 
 During this session you will learn about functions in R.
-The session is be based on chapter 6 of of the 'Advanced R' book in Chapman & Hall's R Series.
-source: https://adv-r.hadley.nz/functions.html 
-
-
-
+The session is be based on chapter 6 of of the ['Advanced R' book](https://adv-r.hadley.nz/functions.html) in Chapman & Hall's R Series.
