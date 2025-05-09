@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/session_16/",
+    "title": "Session 16: TBD",
+    "description": "Looking for input/volunteers to present",
+    "author": [
+      {
+        "name": "here can be your name!",
+        "url": {}
+      }
+    ],
+    "date": "2025-06-11",
+    "categories": [],
+    "contents": "\r\nNo topic yet.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-05-09T09:00:34+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_15/",
     "title": "Session 15: functions",
     "description": "Learn about functions in R.",
@@ -15,23 +32,6 @@
     "preview": {},
     "last_modified": "2025-05-08T21:19:02+02:00",
     "input_file": {}
-  },
-  {
-    "path": "posts/session_16/",
-    "title": "Session 16: TBD",
-    "description": "Looking for input/volunteers to present",
-    "author": [
-      {
-        "name": "this can be your name!",
-        "url": {}
-      }
-    ],
-    "date": "2025-05-14",
-    "categories": [],
-    "contents": "\r\nNo topic yet.\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2025-05-08T21:44:40+02:00",
-    "input_file": "session_16.knit.md"
   },
   {
     "path": "posts/session_14/",
