@@ -3,7 +3,7 @@ title: "Session 16: Efficient programming in R"
 description: |
   Learn how to improve the efficiency of your R code.
 author:
-  - name: here can be your name! 
+  - name: Merel Postema 
     url:
     affiliation: 
     affiliation_url: 

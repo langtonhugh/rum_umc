@@ -1,20 +1,20 @@
 [
   {
     "path": "posts/session_16/",
-    "title": "Session 16: TBD",
-    "description": "Looking for input/volunteers to present",
+    "title": "Session 16: Efficient programming in R",
+    "description": "Learn how to improve the efficiency of your R code.",
     "author": [
       {
-        "name": "here can be your name!",
+        "name": "Merel Postema",
         "url": {}
       }
     ],
     "date": "2025-06-11",
     "categories": [],
-    "contents": "\r\nNo topic yet.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nIn this session you will learn how to improve the effciency of your R code.\r\nThe session is be based on the book Efficient R programming.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-05-09T09:00:34+02:00",
-    "input_file": {}
+    "last_modified": "2025-06-05T12:16:25+02:00",
+    "input_file": "session_16.knit.md"
   },
   {
     "path": "posts/session_15/",
