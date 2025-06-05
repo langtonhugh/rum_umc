@@ -1,7 +1,7 @@
 ---
-title: "Session 16: TBD"
+title: "Session 16: Efficient programming in R"
 description: |
-  Looking for input/volunteers to present
+  Learn how to improve the efficiency of your R code.
 author:
   - name: here can be your name! 
     url:
@@ -13,7 +13,8 @@ output:
     self_contained: false
 ---
 
-No topic yet.
+In this session you will learn how to improve the effciency of your R code.
+The session is be based on the book [Efficient R programming](https://csgillespie.github.io/efficientR/).
 
 
 
