@@ -1,5 +1,5 @@
 ---
-title: "Session 16: Efficient programming in R"
+title: "Session 16: Efficient programming"
 description: |
   Learn how to improve the efficiency of your R code.
 author:
