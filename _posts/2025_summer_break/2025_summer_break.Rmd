@@ -3,7 +3,7 @@ title: "Summer break"
 description: |
   Happy summer holidays!
 author:
-  - name:  
+  - name: None
     url:
     affiliation: 
     affiliation_url: 
