@@ -1,7 +1,24 @@
 [
   {
+    "path": "posts/session_17/",
+    "title": "Session 17: Coding style",
+    "description": "Learn about styling your code in R.",
+    "author": [
+      {
+        "name": "Merel Postema",
+        "url": {}
+      }
+    ],
+    "date": "2025-07-09",
+    "categories": [],
+    "contents": "\r\nIn this session you will learn what coding style is, understand why consistent coding style is important, and get introduced to the tydiverse style guide.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-07-04T20:50:57+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_16/",
-    "title": "Session 16: Efficient programming in R",
+    "title": "Session 16: Efficient programming",
     "description": "Learn how to improve the efficiency of your R code.",
     "author": [
       {
@@ -13,8 +30,8 @@
     "categories": [],
     "contents": "\r\nIn this session you will learn how to improve the effciency of your R code.\r\nThe session is be based on the book Efficient R programming.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-06-05T12:16:25+02:00",
-    "input_file": {}
+    "last_modified": "2025-07-04T20:51:58+02:00",
+    "input_file": "session_16.knit.md"
   },
   {
     "path": "posts/session_15/",

@@ -13,9 +13,6 @@ output:
     self_contained: false
 ---
 
-In this session you will:
-- learn what coding style 
-- understand why consistent coding style is important
-- get introduced to the [tydiverse style guide](https://style.tidyverse.org/)
+In this session you will learn what coding style is, understand why consistent coding style is important, and get introduced to the [tydiverse style guide](https://style.tidyverse.org/).
 
 
