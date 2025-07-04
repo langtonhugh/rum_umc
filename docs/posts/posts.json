@@ -1,5 +1,39 @@
 [
   {
+    "path": "posts/session_18/",
+    "title": "Session 18: TBD",
+    "description": "Topic suggestions? Let me know!",
+    "author": [
+      {
+        "name": "Merel Postema",
+        "url": {}
+      }
+    ],
+    "date": "2025-09-10",
+    "categories": [],
+    "contents": "\r\nLooking for input/volunteers to present. Do you have any topic suggestions, or want to learn more about a specific topic, don’t hesitate to get in touch!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-07-04T21:07:44+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2025_summer_break/",
+    "title": "Summer break",
+    "description": "Happy summer holidays!",
+    "author": [
+      {
+        "name": "",
+        "url": {}
+      }
+    ],
+    "date": "2025-08-13",
+    "categories": [],
+    "contents": "\r\nThere will be no session due to the summer break. Happy summer everyone!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-07-04T21:08:09+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_17/",
     "title": "Session 17: Coding style",
     "description": "Learn about styling your code in R.",
@@ -30,8 +64,8 @@
     "categories": [],
     "contents": "\r\nIn this session you will learn how to improve the effciency of your R code.\r\nThe session is be based on the book Efficient R programming.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-07-04T20:51:58+02:00",
-    "input_file": "session_16.knit.md"
+    "last_modified": "2025-07-04T20:51:59+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/session_15/",

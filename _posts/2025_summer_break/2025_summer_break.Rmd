@@ -1,0 +1,18 @@
+---
+title: "Summer break"
+description: |
+  Happy summer holidays!
+author:
+  - name:  
+    url:
+    affiliation: 
+    affiliation_url: 
+date: 08-13-2025 ## month-day-year
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+There will be no session due to the summer break. Happy summer everyone!
+
+
