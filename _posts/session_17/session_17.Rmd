@@ -1,7 +1,7 @@
 ---
-title: "Session 17: TBD"
+title: "Session 17: Coding style"
 description: |
-  Looking for input/volunteers to present
+  Learn about styling your code in R.
 author:
   - name: Merel Postema 
     url:
@@ -13,6 +13,9 @@ output:
     self_contained: false
 ---
 
-To be determined.
+In this session you will:
+- learn what coding style 
+- understand why consistent coding style is important
+- get introduced to the [tydiverse style guide](https://style.tidyverse.org/)
 
 
