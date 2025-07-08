@@ -2,19 +2,19 @@
   {
     "path": "posts/session_18/",
     "title": "Session 18: TBD",
-    "description": "Topic suggestions? Let me know!",
+    "description": "TBD",
     "author": [
       {
-        "name": "Merel Postema",
+        "name": "Bauke van der Velde",
         "url": {}
       }
     ],
-    "date": "2025-09-10",
+    "date": "2025-09-17",
     "categories": [],
-    "contents": "\r\nLooking for input/volunteers to present. Do you have any topic suggestions, or want to learn more about a specific topic, don’t hesitate to get in touch!\r\n\r\n\r\n\r\n",
+    "contents": "\r\nBauke will present this session about a topic yet to be determined.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-07-04T21:07:44+02:00",
-    "input_file": {}
+    "last_modified": "2025-07-08T10:52:13+02:00",
+    "input_file": "session_18.knit.md"
   },
   {
     "path": "posts/2025_summer_break/",

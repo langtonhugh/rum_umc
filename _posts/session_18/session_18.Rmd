@@ -1,18 +1,18 @@
 ---
 title: "Session 18: TBD"
 description: |
-  Topic suggestions? Let me know!
+  TBD
 author:
-  - name: Merel Postema 
+  - name: Bauke van der Velde
     url:
     affiliation: 
     affiliation_url: 
-date: 09-10-2025 ## month-day-year
+date: 09-17-2025 ## month-day-year
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-Looking for input/volunteers to present. Do you have any topic suggestions, or want to learn more about a specific topic, don't hesitate to [get in touch](mailto:m.c.postema@amsterdamumc.nl)!
+Bauke will present this session about a topic yet to be determined.
 
 
