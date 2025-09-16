@@ -1,9 +1,9 @@
 ---
-title: "Session 18: TBD"
+title: "Session 18: Q&A"
 description: |
-  TBD
+  An open session to ask R questions and share advice.
 author:
-  - name: Bauke van der Velde
+  - name: Merel Postema
     url:
     affiliation: 
     affiliation_url: 
@@ -13,6 +13,6 @@ output:
     self_contained: false
 ---
 
-Bauke will present this session about a topic yet to be determined.
+If you have run into any issues or would like advice from your peers, you can bring them up during this meeting.
 
 

@@ -1,19 +1,36 @@
 [
   {
-    "path": "posts/session_18/",
-    "title": "Session 18: TBD",
-    "description": "TBD",
+    "path": "posts/session_19/",
+    "title": "Session 19: TBD",
+    "description": "Bauke will present about a topic yet to be determined.",
     "author": [
       {
         "name": "Bauke van der Velde",
         "url": {}
       }
     ],
+    "date": "2025-10-08",
+    "categories": [],
+    "contents": "\r\nThis session Bauke will present about a topic yet to be determined.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-09-16T09:18:04+02:00",
+    "input_file": "session_19.knit.md"
+  },
+  {
+    "path": "posts/session_18/",
+    "title": "Session 18: Q&A",
+    "description": "An open session to ask R questions and share advice.",
+    "author": [
+      {
+        "name": "Merel Postema",
+        "url": {}
+      }
+    ],
     "date": "2025-09-17",
     "categories": [],
-    "contents": "\r\nBauke will present this session about a topic yet to be determined.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nIf you have run into any issues or would like advice from your peers, you can bring them up during this meeting.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-07-08T10:52:13+02:00",
+    "last_modified": "2025-09-16T09:13:27+02:00",
     "input_file": "session_18.knit.md"
   },
   {
