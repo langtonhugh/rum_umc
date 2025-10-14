@@ -1,8 +1,25 @@
 [
   {
+    "path": "posts/session_20/",
+    "title": "Session 20: software security",
+    "description": "Learn how to make your (R) code more secure",
+    "author": [
+      {
+        "name": "Jacob Rousseau",
+        "url": {}
+      }
+    ],
+    "date": "2025-11-12",
+    "categories": [],
+    "contents": "\r\nIn this session, Jacob will share general security advice for software development.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-10-14T13:19:31+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_19/",
-    "title": "Session 19: TBD",
-    "description": "Bauke will present about a topic yet to be determined.",
+    "title": "Session 19: API's and live data",
+    "description": "Learn how to connect to and interact with APIs using R.",
     "author": [
       {
         "name": "Bauke van der Velde",
@@ -11,9 +28,9 @@
     ],
     "date": "2025-10-08",
     "categories": [],
-    "contents": "\r\nThis session Bauke will present about a topic yet to be determined.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThis session Bauke will present about API’s and live data.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-09-16T09:18:05+02:00",
+    "last_modified": "2025-10-14T13:19:55+02:00",
     "input_file": {}
   },
   {

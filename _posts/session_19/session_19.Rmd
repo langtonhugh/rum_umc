@@ -1,7 +1,7 @@
 ---
-title: "Session 19: TBD"
+title: "Session 19: API's and live data"
 description: |
-  Bauke will present about a topic yet to be determined.
+  Learn how to connect to and interact with APIs using R.
 author:
   - name: Bauke van der Velde
     url:
@@ -13,5 +13,5 @@ output:
     self_contained: false
 ---
 
-This session Bauke will present about a topic yet to be determined.
+This session Bauke will present about API's and live data.
 
