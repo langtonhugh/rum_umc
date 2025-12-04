@@ -1,17 +1,16 @@
 ---
-title: "Session 21: Christmas edition"
+title: "Session 21: software security"
 description: |
-  Learn how to make your own Christmas card in R
+  Learn how to make your (R) code more secure
 author:
-  - name: Merel Postema
+  - name: Jacob Rousseau
     url:
     affiliation: 
     affiliation_url: 
-date: 12-10-2025 ## month-day-year
+date: 01-14-2026 ## month-day-year
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-In this session, you will learn how to create your own Christmas card in R using the ggplot2 package.
-The content of this session is based on the information from [this website](https://realworlddatascience.net/applied-insights/tutorials/posts/2023/12/12/xmas-cards.html).
+New year, new software security. Start 2026 with smart habits to keep your (R) code safe and resilient.In this session, Jacob will share general security advice for software development.

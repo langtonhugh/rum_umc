@@ -1,7 +1,41 @@
 [
   {
+    "path": "posts/session_22/",
+    "title": "Session 22: TBD",
+    "description": "Looking for volunteers — a great chance to share your R expertise with the group!",
+    "author": [
+      {
+        "name": "",
+        "url": {}
+      }
+    ],
+    "date": "2026-02-11",
+    "categories": [],
+    "contents": "\r\nIn this session, Jacob will share general security advice for software development.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-12-04T13:41:51+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_21/",
-    "title": "Session 21: Christmas edition",
+    "title": "Session 21: software security",
+    "description": "Learn how to make your (R) code more secure",
+    "author": [
+      {
+        "name": "Jacob Rousseau",
+        "url": {}
+      }
+    ],
+    "date": "2026-01-14",
+    "categories": [],
+    "contents": "\r\nNew year, new software security. Start 2026 with smart habits to keep your (R) code safe and resilient.In this session, Jacob will share general security advice for software development.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-12-04T13:42:00+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/session_20/",
+    "title": "Session 20: Christmas edition",
     "description": "Learn how to make your own Christmas card in R",
     "author": [
       {
@@ -13,24 +47,7 @@
     "categories": [],
     "contents": "\r\nIn this session, you will learn how to create your own Christmas card in R using the ggplot2 package.\r\nThe content of this session is based on the information from this website.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-12-04T11:57:03+01:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/session_20/",
-    "title": "Session 20: software security",
-    "description": "Learn how to make your (R) code more secure",
-    "author": [
-      {
-        "name": "Jacob Rousseau",
-        "url": {}
-      }
-    ],
-    "date": "2025-11-12",
-    "categories": [],
-    "contents": "\r\nIn this session, Jacob will share general security advice for software development.\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2025-10-14T13:19:31+02:00",
+    "last_modified": "2025-12-04T13:42:08+01:00",
     "input_file": {}
   },
   {
