@@ -2,7 +2,7 @@
   {
     "path": "posts/session_22/",
     "title": "Session 22: TBD",
-    "description": "Looking for volunteers — a great chance to share your R expertise with the group!",
+    "description": "Looking for volunteers: a great chance to share your R expertise with the group!",
     "author": [
       {
         "name": "",
@@ -11,10 +11,10 @@
     ],
     "date": "2026-02-11",
     "categories": [],
-    "contents": "\r\nIn this session, Jacob will share general security advice for software development.\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-12-04T13:41:51+01:00",
-    "input_file": {}
+    "last_modified": "2025-12-04T14:53:40+01:00",
+    "input_file": "session_22.knit.md"
   },
   {
     "path": "posts/session_21/",
@@ -47,7 +47,7 @@
     "categories": [],
     "contents": "\r\nIn this session, you will learn how to create your own Christmas card in R using the ggplot2 package.\r\nThe content of this session is based on the information from this website.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-12-04T13:42:08+01:00",
+    "last_modified": "2025-12-04T13:57:27+01:00",
     "input_file": {}
   },
   {

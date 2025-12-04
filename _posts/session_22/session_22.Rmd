@@ -1,7 +1,7 @@
 ---
 title: "Session 22: TBD"
 description: |
- Looking for volunteers — a great chance to share your R expertise with the group!
+ Looking for volunteers: a great chance to share your R expertise with the group!
 author:
   - name:
     url:
@@ -13,5 +13,4 @@ output:
     self_contained: false
 ---
 
-In this session, Jacob will share general security advice for software development.
 
