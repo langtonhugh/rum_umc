@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/session_21/",
+    "title": "Session 21: Christmas edition",
+    "description": "Learn how to make your own Christmas card in R",
+    "author": [
+      {
+        "name": "Merel Postema",
+        "url": {}
+      }
+    ],
+    "date": "2025-12-10",
+    "categories": [],
+    "contents": "\r\nIn this session, you will learn how to create your own Christmas card in R using the ggplot2 package.\r\nThe content of this session is based on the information from this website.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-12-04T11:57:03+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/session_20/",
     "title": "Session 20: software security",
     "description": "Learn how to make your (R) code more secure",

@@ -2,7 +2,7 @@
 
 This repository contains the material for the R user meet-up of [Amsterdam UMC](https://www.amsterdamumc.org/en/organization/amsterdam-umc.htm).
 
-You can find out more and view the upcoming schedule [on our website](https://langtonhugh.github.io/rum_umc/).
+You can find out more and view the upcoming schedule [on our website](https://amsterdamumc.github.io/rum_umc/).
 
 # Contributing
 
